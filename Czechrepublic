@@ -1,0 +1,9 @@
+gh api graphql --header 'GraphQL-Features: projects_next_graphql' -f query='
+  query{
+    organization(login: "ORGANIZATION"){
+      projectNext(number: NUMBER) {
+        id
+      }
+    }
+  }'
+ahoj 
