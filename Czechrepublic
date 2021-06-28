@@ -6,3 +6,4 @@ gh api graphql --header 'GraphQL-Features: projects_next_graphql' -f query='
       }
     }
   }'
+ahoj 
